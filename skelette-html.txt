@@ -1,9 +1,13 @@
-1 <!DOCTYPE html>
-2 <html>
-3   <head>
-4     <title>Page Title</title>
-5     <meta charset="utf-8">
-6   </head>
-7   <body>
-8   </body>
-9 </html>
+ <!DOCTYPE html>
+ <html lang="fr">
+  <head>
+   <title>Page Title</title>
+   <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/app.js"></script>
+  </head>
+  <body>
+
+  </body>
+ </html>
