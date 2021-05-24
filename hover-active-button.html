@@ -5,13 +5,45 @@
         <title>animation bouton</title>
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400" type=text/css rel="stylesheet">
         <style type="text/css">
+           
+            .btn {
+                outline: none;
+                border: none;
+                cursor: pointer;
+                display: block;
+                position: relative;
+                background-color: #fcad26;
+                font-size: 16px;
+                font-weight: 300px;
+                color: white;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                padding: 25px 80px;
+                margin:  0 auto;
+                border-radius: 20px;
+                box-shadow: 3px 6px #ca8d24;
+            } 
+            .btn:hover {
+                box-shadow: 2px 4px #ca8d24;
+                top: 2px;
+                left: 1px;
+            }
+            .btn:active {
+                top: 4px;
+                left:4px;
+                box-shadow: none;
+            }
             body {
                 font-family: Lato, sans-serif;
+                background-color: yellow;
             }
         </style>
     </head>
     <body>
         <h1>This Button Does Nothing</h1>
-        <button class="btn">Click Me</button>
+        <button class="btn">Click Me!</button>
+        <h2>Ce bouton ne fait rien non plus</h2>
+        <button class="btnFr">Me Cliquer ?</button>
+        <p>Ce bouton est super moché comme ça. J'attends toujours que quelqu'un veuille bien le styler. Maceo ? Myranda ? Help me ?</p>
     </body>  
 </html>
