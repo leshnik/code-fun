@@ -2,14 +2,20 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <style>
+    	
         p.premier {
             background-color: tomato;
             width: 100px;
             height: 100px;
+            text-align: center;
+            line-height: 100px;
+            font-size: 2em;
+            color: tomato;
         }
         p.premier:active {
             transform: translate(500px, 20px);
-            background-color: rgb(255, 170, 170);
+            background-color: #FFE9E0;
+            border-radius: 50%;
             transition-duration: 2s;
             
         }
@@ -22,22 +28,28 @@
             background-color: thistle;
             width: 100px;
             height: 100px;
+            color: #B4FF23;
+            text-align: center;
+            line-height: 100px;
+            font-size: 2em;
         }
         p.troisième:hover {
             transform: rotate(15deg);
             transform-origin: left bottom;
             cursor: progress;
             transition-duration: 1s;
+            color: thistle;
         }
     </style>
 </head>
 <body>
     <h1>Le carré rouge bouge quand on clique dessus.</h1>
     <p>Et ça change de couleur en plus. Quand on arrête de cliquer, le carré revient où il était.</p>
-    <p class="premier"></p>
+    <p class="premier">!</p>
     <h2>À qui le tour de faire bouger le carré ci-dessous ?</h2>
     <p>Où va-t-il aller?</p>
     <p class="seconde"></p>
     <h2>Et moi, je fais quoi quand on me met le pointeur dessus?</h2>
-    <p class="troisième"></p>
+    <p class="troisième">?</p>
 </body>
+<!-- comment ralentir le retour du carré quand on lache le click ? -->
