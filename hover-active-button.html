@@ -33,13 +33,41 @@
                 left:4px;
                 box-shadow: none;
             }
-            .btnFr
-            {
-            	color: white;
-            	background-color: #005AFF;
-            	font-size: 20px;
-            	padding: 25px 80px;
-            	border-radius: 21px;
+            .btnFr {
+                  outline: none;
+                  border: none;
+                  cursor: pointer;
+                  display: block;
+                  position: relative;
+                  background-color: #B72100;
+                  font-size: 16px;
+                  font-weight: 300px;
+                  color: white;
+                  text-align: center;
+                  text-transform: uppercase;
+                  letter-spacing: 3px;
+                  padding: 25px 21px;
+                  margin:  0 auto;
+                  border-radius: 25px;
+                  box-shadow: 3px 6px #601200;
+                
+                
+                }
+                .btnFr:hover {
+                      box-shadow: 2px 5px #601200;
+                      top: 45px;
+                      left: 240px;
+                      transition-duration: 3s;
+                      border-radius: 50%;
+                      
+                }
+                .btnFr:active {
+                      top: 4px;
+                      left:4px;
+                      box-shadow: none;
+                      
+            
+            	
             	
             }
             body {
@@ -52,7 +80,9 @@
         <h1>This Button Does Nothing</h1>
         <button class="btn">Click Me!</button>
         <h2>Ce bouton ne fait rien non plus</h2>
-        <button class="btnFr">Me Cliquer ?</button>
-        <p>Ce bouton est super moche comme ça. J'attends toujours que quelqu'un veuille bien le styler. Maceo ? Myranda ? Help me ?</p>
+        <button class="btnFr">Cliquer ?</button>
+        <p>tu peux rester appuyé sur le bouton pour qu'il ne change pas de place</p>
     </body>  
 </html>
+
+<!--comment faire pour que le text change en fonction de la transition? et peut-on mettre du texte derrière un bouton pour que quand le bouton bouge il le laisse aparaitre?-->
