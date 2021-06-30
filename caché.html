@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>caché</title>
+    <style>
+        .container {
+            width: 200px;
+            height: 200px;
+            position: relative;
+            margin: 20px;
+        }
+        .box {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+        .stack-top {
+            z-index: 9;
+        }
+        .stack-top:active {
+        	background-color: #C61122;
+        	transform: translate(450px); 
+        	transition-duration: 3s;
+        	border-radius: 50%; 
+        }
+        .texte {
+            padding: 20%;
+        }
+        .texte-visible:active {
+            color: blue;
+            transition-duration: 3s;
+        }
+        .texte-visible {
+            color: white;
+            padding: 20%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" >
+            <p class="texte" style="color: blue; font-size: 24px">Coucou !</p>
+        </div>
+        <div class="box stack-top" style="background: blue;">
+            <p class="texte-visible">Je cache quelque chose :-)</p>
+        </div>
+    </div>
+</body>
+</html>
